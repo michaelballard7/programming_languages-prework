@@ -8,7 +8,9 @@ def reformat_languages(languages)
     if new_hash[language_name] ==  nil
       new_hash[language_name] = type
     #binding.pry
-    new_hash[language_name].merge!({style: [language_paradigm]}) 
+      new_hash[language_name].merge!({style: [language_paradigm]}) 
+    else 
+      
     #binding.pry
     end
   end
