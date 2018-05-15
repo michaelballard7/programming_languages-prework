@@ -10,7 +10,7 @@ def reformat_languages(languages)
     #binding.pry
       new_hash[language_name].merge!({style: [language_paradigm]}) 
     else 
-      new_hash[]
+      new_hash[language_name] <<
     #binding.pry
     end
   end
