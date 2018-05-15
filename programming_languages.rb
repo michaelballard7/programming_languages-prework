@@ -4,6 +4,8 @@ def reformat_languages(languages)
   languages.each do|language_paradigm, language|
     #binding.pry
     language.each do |language_name, type|
+      
+    if new_hash
     new_hash[language_name] = type
     #binding.pry
     new_hash[language_name].merge!({style: [language_paradigm]}) 
